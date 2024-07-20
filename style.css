@@ -1,9 +1,28 @@
-.principal {
-    display: flex;
-    width: 90%;
-    max-width: 600px;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3eae3;
+}
 
-  .principal img {
-    width: 50%;
-  }
+.principal {
+  display: flex;
+  width: 90%;
+  max-width: 600px;
+  /* margin: topo direita baixo esquerda; */
+  margin: 100px auto 0 auto;
+}
+
+.principal img {
+  width: 50%;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container_text {
+  padding: 28px;
+  background-color: white;
+}
