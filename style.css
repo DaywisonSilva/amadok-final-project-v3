@@ -1,0 +1,9 @@
+.principal {
+    display: flex;
+    width: 90%;
+    max-width: 600px;
+  }
+
+  .principal img {
+    width: 50%;
+  }
